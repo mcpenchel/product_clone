@@ -3,8 +3,8 @@
   <div class="card-product">
     <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
     <div class="card-product-infos">
-      <h2><%= product.name %></h2>
-      <p><%= product.tagline %></p>
+      <h2 id="name-<%= product.id %>"><%= product.name %></h2>
+      <p id="tagline-<%= product.id %>"><%= product.tagline %></p>
     </div>
   </div>
 <% end %>
